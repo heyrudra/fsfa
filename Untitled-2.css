@@ -92,3 +92,18 @@ footer {
     font-family:bronzier;
     letter-spacing:1px;
 }
+
+.desc{
+    display:flex;
+    background-image: url("./logo.jpg");
+    background-color:rgba(83, 83, 83, 0.322);
+    background-blend-mode:color-burn;
+    background-size:cover;
+    height:30%;
+    z-index:1;
+    width:100%;
+    align-items: center;
+    transform:translateX();
+    text-shadow: 3px 1px 0 #000000;
+
+}
