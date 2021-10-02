@@ -1,0 +1,94 @@
+body{
+
+    margin:0;
+    overflow-x:hidden;
+    font-family:varsity;
+
+}
+
+@font-face {
+    font-family: varsity;
+    src: url("VarsityTeamBold.otf");
+}
+
+@font-face {
+    font-family: bronzier;
+    src: url("bronzier.ttf");
+}
+
+
+h1{
+  margin-right: 720px;
+}
+
+.separator {
+    padding: 40px;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:varsity;
+    letter-spacing:1px;
+}
+
+.grid-container1 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 19.4vw);
+    grid-template-rows : repeat(2, 19.4vw);
+    margin-right: 0px;
+    margin-left: 0px;
+    top: 0;
+} 
+
+.grid-item1 {
+    margin: 40px;
+    margin-right: -5px;    
+    margin-left: 45px;
+    float:left;
+    width:80%;
+}
+
+.grid-item1 img{
+    height: 40%;
+    width: 100%;
+    align-self: center;
+    height:auto;
+}
+
+.grid-container {
+    height: 50%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    top: 0;
+} 
+
+.grid-item {
+    margin: 100px;
+    float:left;
+    width:80%;
+}
+
+.grid-item img{
+    height: 70%;
+    width: 100%;
+    align-self: center;
+    height:auto;
+}
+
+
+
+footer {
+    padding:10px;
+    font-size: 15px;
+    margin-top: -30px;
+    font-weight:bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:bronzier;
+    letter-spacing:1px;
+}
