@@ -95,8 +95,8 @@ footer {
 
 .desc{
     display:flex;
-    background-image: url("./logo.jpg");
-    background-color:rgba(83, 83, 83, 0.322);
+    
+    background-color: rgba(27, 24, 24, 0.966);
     background-blend-mode:color-burn;
     background-size:cover;
     height:30%;
